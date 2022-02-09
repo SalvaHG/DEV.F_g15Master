@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>¡Bienvenidos al club Fitness!</h1>
+        </header>
+    
+        <main>
+            <p>Para continuar, por favor llene el siguiente formulario:</p>
+            <section class="form-container">
+                <fieldset>
+                    <legend>Información general</legend>
+    
+                    <form action="" name="formulario" method="">
+    
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe aquí tu nombre">
+    
+                        <label for="">¿Eres miembro?</label>
+                        <input type="radio" id="miembro" name="miembro" value="Miembro">
+                        <label for="miembro">Miembro</label>
+                        <input type="radio" id="nomiembro" name="nomiembro" value="NoMiembro">
+                        <label for="miembro">No miembro</label>
+    
+                        <label for="personalidad">Escribe tu personalidad a continuación:</label>
+                        <textarea name="personalidad" id="personalidad" cols="50" rows="10"></textarea>
+    
+                        <label for="correo">Correo electrónico;</label>
+                        <input type="email" id="correo" name="correo">
+                        
+                    </form>
+                </fieldset>
+            </section>
+    
+            <section class="form-container2">
+    
+                <form action="" name="formulario2" method="">
+    
+                    <label for="instalaciones">Elige las instalaciones de tu preferencia:</label>
+                    <select name="instalaciones" id="instaaciones">
+                        <option value="Tenis">Cancha de tenis</option>
+                        <option value="Futbol">Cancha de futbol</option>
+                        <option value="Beisball">Cancha de beisball</option>
+                        <option value="Baloncesto">Cancha de baloncesto</option>
+                    </select>
+    
+                    <label for="fechas">Selecciona la fecha para reservar:</label>
+                    <input type="datetime-local" id="fechas" name="fechas">
+    
+                    <input type="checkbox" name="politicas" id="politicas">
+                    <label for="politicas">Estoy de acuerdo con las políticas del club</label>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+    
+            </section>
+        </main>
+    </div>
+</body>
+</html>

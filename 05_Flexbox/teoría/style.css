@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Viewport Height  -> es una medida relativa conforme al alto de la pantalla */
+    height: 100vh;
+}
+
+.padre {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+
+    display: flex;
+
+    /* Flex Direction  -> cambiar la dirección de mis elementos */
+    flex-direction: row;
+    /* Justify Content -> comodar los elemtos horizontalmente*/
+    justify-content: space-evenly;
+    /* Align Items -> acomodar verticalmente */
+    align-items: center;
+
+}
+
+#hijo1 {
+    width: 40%;
+    height: 40%;
+    border: 2px solid red;
+}
+
+#hijo2 {
+    width: 40%;
+    height: 40%;
+    border: 2px solid red;
+}
+
+.nieto {
+    width: 40%;
+    height: 40%;
+    border: 2px solid green;
+}

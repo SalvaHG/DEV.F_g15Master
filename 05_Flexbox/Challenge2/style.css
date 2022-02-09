@@ -1,0 +1,41 @@
+.bandera {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+
+    background-color: #041562;
+}
+
+.bandera-izquierda {
+    height: 44%;
+    width: 30%;
+    border: 1px solid black;
+    background-color: #EEEEEE;
+
+    display: flex;
+}
+
+.bandera-derecha {
+    height: 44%;
+    width: 61%;
+    border: 1px solid black;
+    background-color: #EEEEEE;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red {
+    background-color: #DA1212;
+    width: 90%;
+    height: 84%;
+}
+
+.abajo {
+    display: flex;
+    align-items: flex-end;
+}

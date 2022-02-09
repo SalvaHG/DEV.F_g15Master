@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 33%;
+    height: 100vh;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenedor1 {
+    background-color: #2C3333;
+}
+
+#contenedor2 {
+    background-color: #2666CF;
+}
+
+#contenedor3 {
+    background-color: #395B64;
+}
+
+@media only screen and (max-width:1022px) and (min-width:768px) {
+    
+    #contenedor1 {
+        width: 50%;
+    }
+
+    #contenedor2 {
+        width: 50%;
+    }
+
+    #contenedor3 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    
+    #contenedor1 {
+        width: 100%;
+    }
+
+    #contenedor2 {
+        width: 100%;
+    }
+
+    #contenedor3 {
+        width: 100%;
+    }
+
+}
